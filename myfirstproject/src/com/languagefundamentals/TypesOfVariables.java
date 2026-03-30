@@ -23,11 +23,16 @@ public class TypesOfVariables {
 		System.out.println(collegeId);
 		System.out.println(collegename);
 
-//		static data members we can access by using class name
+//		static data members we can access by using class name also.
+//		sometime we need to access the static data outside of the class
+//		we must need to access through class name.
+//		accessing static data through class name is always recommended.
+
 		System.out.println(TypesOfVariables.collegeId);
 		System.out.println(TypesOfVariables.collegename);
 
 //		static data we can access by using object reference variable also.
+//		the static field should be accessed in a static way
 		System.out.println(tv.collegeId);
 		System.out.println(tv.collegename);
 
